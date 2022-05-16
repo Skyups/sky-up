@@ -210,3 +210,26 @@ p.desc.aparecer{
 #R7.aparecer, #R8.aparecer, #R9.aparecer{
     display: block;
 }
+
+
+
+@media screen and (max-width: 900px){
+    form b{
+        padding: 5px 0px 5px 200px;
+    }
+label span{
+    margin-left: 0px;
+}
+
+}
+
+
+@media screen and (max-width: 720px){
+    label span:hover,
+    input[type="radio"]+ span{
+        width: 350px;
+    }
+    form b{
+        padding: 5px 0px 5px 100px;
+    }
+}
