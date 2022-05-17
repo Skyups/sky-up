@@ -225,11 +225,6 @@ label span:hover,
     input[type="radio"]+ span{
         width: 400px;
     }
-
-    label{
-        margin: 10px;
-    }
-
 }
 
 
