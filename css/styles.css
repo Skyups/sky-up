@@ -1,9 +1,23 @@
+/*TIPOGRAFÍAS*/
+
+/*Monserrat*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+
+/*DM Serif Display*/
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
 }
 
 /*INDEX*/
@@ -43,20 +57,21 @@ img.logo{
 .portada h2{
     font-size: 18px;
     text-align: center;
-    font-weight: lighter;
+    font-weight: 400;
     margin: 50px 0;
 }
 
 form p{
     margin: 50px 0;
     line-height: 1.5em;
+    font-weight: 500;
 }
 
 form b{
     background-color: #FBAF41;
     margin-left: 0;
     padding: 5px 0px 5px 450px;
-    font-weight: lighter;
+    font-weight: 500;
 }
 
 form{
@@ -191,6 +206,12 @@ input[type="button"]:hover{
 .textos{
     text-align: end;
     margin: 20px 0;
+    font-family: 'DM Serif Display', serif;
+    font-style: italic;
+}
+
+.textos p{
+    color: gray;
 }
 
 p.desc{
