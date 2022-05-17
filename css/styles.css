@@ -202,7 +202,7 @@ p.desc.aparecer{
     text-align: center;
     background-color: #FBAF41;
     margin: 100px 50px;
-    padding: 8px 0;
+    padding: 8px;
 }
 
 /*Funcionalidad Respuestas*/
@@ -247,6 +247,10 @@ p.desc.aparecer{
     .img-respuesta > div{
         width: 250px;
         margin: 0;
+    }
+
+    p.desc.aparecer{
+        margin: 50px 20px;
     }
     
 }
