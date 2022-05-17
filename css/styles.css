@@ -49,6 +49,7 @@ img.logo{
 
 form p{
     margin: 50px 0;
+    line-height: 1.5em;
 }
 
 form b{
@@ -217,14 +218,36 @@ p.desc.aparecer{
     form b{
         padding: 5px 0px 5px 200px;
     }
-label span{
-    margin-left: 0px;
-}
-
-label span:hover,
-    input[type="radio"]+ span{
-        width: 400px;
+    label span{
+        margin-left: 0px;
     }
+
+    label span:hover,
+        input[type="radio"]+ span{
+            width: 400px;
+        }
+
+    .global-container-respuesta{
+        display: grid;
+        max-width: 80%;
+        margin: 0 auto;
+        justify-content: center;
+    }
+    .img-respuesta{
+        height: 400px;
+        width: 100%;
+        border: 10px solid #2E2D2D;
+        border-radius: 10px;
+        display: grid;
+        align-content: flex-end;
+        justify-content: right;
+        text-align: end;
+    }
+    .img-respuesta > div{
+        width: 300px;
+        margin: 50px;
+    }
+    
 }
 
 
