@@ -213,13 +213,18 @@ p.desc.aparecer{
 
 
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 1080px){
     form b{
         padding: 5px 0px 5px 200px;
     }
 label span{
     margin-left: 0px;
 }
+
+label span:hover,
+    input[type="radio"]+ span{
+        width: 400px;
+    }
 
 }
 
