@@ -32,6 +32,13 @@
             <a href="test.html">- TOUCH ME -</a>
         </section>
 
-        <script src="js/script.js" type="text/jquery"></script>
+        <script type="text/javascript">
+            window.onload=inicio;
+
+            function inicio(){
+                var logomovimiento = document.querySelector(".global");
+                        logomovimiento.classList.toggle("animation")
+            }
+        </script>
     </body>
 </html>
