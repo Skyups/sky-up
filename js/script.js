@@ -1,3 +1,12 @@
+window.onload=inicio;
+
+function inicio(){
+    var logomovimiento = document.querySelector(".global");
+            logomovimiento.classList.toggle("animation")
+}
+
+
+
 $('#validate').click(function() {
 
     var cambio = document.querySelector(".global-container");
