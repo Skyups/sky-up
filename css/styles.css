@@ -236,13 +236,14 @@ input[type="button"]:hover{
 
 .img-respuesta{
     height: 400px;
-    width: 700px;
+    width: 90%;
     border: 10px solid #482A1D;
     border-radius: 10px;
     display: grid;
     background-color: white;
     justify-content: center;
     align-content: center;
+    margin: 0 auto;
 }
 
 .img-respuesta a{
@@ -323,12 +324,27 @@ p.desc{
     display: none;
 }
 
+p.desc.aparecer a{
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+    line-height: 2em;
+}
+
+p.desc.aparecer a:hover{
+    text-decoration: underline;
+}
+
 p.desc.aparecer{
     display: initial;
     text-align: center;
-    background-color: #FBAF41;
     margin: 100px 50px;
+}
+
+p.desc.aparecer b{
+    background-color: #FBAF41;
     padding: 8px;
+    line-height: 2em;
 }
 
 /*Funcionalidad Respuestas*/
@@ -359,7 +375,6 @@ p.desc.aparecer{
         display: grid;
         max-width: 75%;
         margin: 0 auto;
-        justify-content: center;
     }    
     
     .portadaR.aparecer{
@@ -371,7 +386,7 @@ p.desc.aparecer{
         border: 5px solid #482A1D;
         display: grid;
         width: 70%;
-        height: 200px;
+        height: 300px;
     }
 
     p.desc.aparecer{
@@ -395,7 +410,8 @@ p.desc.aparecer{
     .img-respuesta{
         border: 5px solid #482A1D;
         display: grid;
-        width: 100%;
-        height: 250px;
+        width: 80%;
+        height: 200px;
+        margin: 0 auto;
     }
 }
