@@ -235,8 +235,8 @@ input[type="button"]:hover{
 }
 
 .img-respuesta{
-    height: 400px;
-    width: 90%;
+    height: 450px;
+    width: 100%;
     border: 10px solid #482A1D;
     border-radius: 10px;
     display: grid;
@@ -385,7 +385,6 @@ p.desc.aparecer b{
     .img-respuesta{
         border: 5px solid #482A1D;
         display: grid;
-        width: 70%;
         height: 300px;
     }
 
@@ -408,10 +407,29 @@ p.desc.aparecer b{
         padding: 5px 0px 5px 100px;
     }
     .img-respuesta{
-        border: 5px solid #482A1D;
+        border: 5px solid #000000;
         display: grid;
-        width: 80%;
         height: 200px;
         margin: 0 auto;
+    }
+
+    #imgR1{
+        background-image: url(../img/EdpP.jpg);
+        background-position: 50%;
+    }
+    
+    #imgR2{
+        background-image: url(../img/BullaP.jpg);
+        background-position: 50% 45%;
+    }
+    
+    #imgR3{
+        background-image: url(../img/A-dayP.jpg);
+        background-position: 52%;
+    }
+    
+    #imgR4{
+        background-image: url(../img/TiredP.jpg);
+        background-position: 54%;
     }
 }
