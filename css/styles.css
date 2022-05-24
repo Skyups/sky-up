@@ -362,7 +362,7 @@ p.desc.aparecer{
         justify-content: center;
     }    
     
-    .portadaR.portadaR.aparecer{
+    .portadaR.aparecer{
         height: 400px;
         background-position: 20% 10%;
     }
@@ -370,8 +370,8 @@ p.desc.aparecer{
     .img-respuesta{
         border: 5px solid #482A1D;
         display: grid;
-        width: 100%;
-        height: 400px;
+        width: 80%;
+        height: 250px;
     }
 
     p.desc.aparecer{
