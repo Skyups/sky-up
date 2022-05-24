@@ -34,6 +34,7 @@ body{
 .global img{
     display: block;
     margin: 0 auto;
+    width: 200px;
 }
 
 .global a{
@@ -293,30 +294,28 @@ p.desc.aparecer{
             width: 400px;
         }
 
-    .global-container-respuesta{
+
+    .sub-global-respuesta{
         display: grid;
-        max-width: 70%;
+        max-width: 75%;
         margin: 0 auto;
         justify-content: center;
-    }
-    .img-respuesta{
+    }    
+    
+    .portadaR.portadaR.aparecer{
         height: 400px;
-        width: 100%;
-        border: 10px solid #2E2D2D;
-        border-radius: 10px;
-        display: grid;
-        align-content: flex-end;
-        justify-content: right;
-        text-align: end;
-        padding: 20px;
+        background-position: 20% 10%;
     }
-    .img-respuesta > div{
-        width: 250px;
-        margin: 0;
+
+    .img-respuesta{
+        border: 5px solid #482A1D;
+        display: grid;
+        width: 100%;
+        height: auto;
     }
 
     p.desc.aparecer{
-        margin: 50px 20px;
+        margin: 50px 0px;
     }
     
 }
