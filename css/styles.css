@@ -25,6 +25,10 @@ body{
     height: 100vh;
     display: grid;
     align-content: center;
+    background-image: url(../img/principal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 10% 20%;
 }
 
 .global img{
@@ -36,6 +40,8 @@ body{
     text-align: center;
     text-decoration: none;
     color: black;
+    font-weight: bold;
+    font-style: italic;
 }
 
 .global a:hover{
@@ -188,11 +194,35 @@ input[type="button"]:hover{
 
 /*Respuesta*/
 
+.portadaR{
+    display: none;
+}
+
+.portadaR.aparecer{
+    display: grid;
+    background-image: url(../img/portada.jpg);
+    background-position: 50% 10%;
+    height: 600px;
+    width: 100%;
+    position: absolute;
+}
+
+.portadaR img{
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    margin-top: 50px;
+}
+
 .global-container.desaparecer{
     display: none;
 }
 
 .global-container-respuesta{
+    display: grid;
+}
+
+.sub-global-respuesta{
     display: grid;
     max-width: 60%;
     margin: 0 auto;
@@ -206,17 +236,15 @@ input[type="button"]:hover{
 .img-respuesta{
     height: 400px;
     width: 700px;
-    border: 10px solid #2E2D2D;
+    border: 10px solid #482A1D;
     border-radius: 10px;
     display: grid;
-    align-content: flex-end;
-    justify-content: right;
-    text-align: end;
+    background-color: white;
 }
 
-.img-respuesta > div{
-    width: 300px;
-    margin: 50px;
+iframe{
+    width: 100%;
+    height: 100%;
 }
 
 .textos{
@@ -244,9 +272,10 @@ p.desc.aparecer{
 
 /*Funcionalidad Respuestas*/
 
-#R1.aparecer, #R2.aparecer, #R3.aparecer, #R4.aparecer, #R5.aparecer, #R6.aparecer, 
-#R7.aparecer, #R8.aparecer, #R9.aparecer{
+#R1.aparecer, #R2.aparecer, #R3.aparecer, #R4.aparecer{
     display: block;
+    position: relative;
+    margin-top: 300px;
 }
 
 
